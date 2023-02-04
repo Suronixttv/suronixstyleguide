@@ -1,0 +1,25 @@
+{
+  "name": "suronixstyleguide",
+  "version": "1.0.0",
+  "description": "Suronix Comonent Libary",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suronixttv/suronixstyleguide.git"
+  },
+  "keywords": [
+    "react",
+    "stylguide",
+    "component",
+    "libary"
+  ],
+  "author": "Suronixttv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suronixttv/suronixstyleguide/issues"
+  },
+  "homepeage": "https://github.com/Suronixttv/suronixstyleguide#readme"
+}
