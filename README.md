@@ -18,3 +18,7 @@ Start the application
 ```
 npm run start
 ```
+Or start the Storybook with
+```
+npm run storybook
+```
