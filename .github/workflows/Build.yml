@@ -14,7 +14,7 @@ jobs:
         run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       
       - name: Build dependencys
-      	run:  ./.github/scripts/build.sh
+      	run:  ./scripts/build.sh
         shell:  bash
       
       - name: Run EsLint
