@@ -1,7 +1,15 @@
 import React from 'react'
 
-function Button({ className }) {
-  return <button className={className}>Hello World</button>
+function Button({ primary, label}) {
+  let className= "btn ";
+  if(primary){
+  className+="btn-primary "
+  }else{
+  className+="btn-secondary "
+  }
+
+  
+  return <button className={className}>{label}</button>
 }
 
 export default Button

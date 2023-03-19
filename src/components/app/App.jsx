@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container py-4 px-3 mx-auto">
         <h1>Hello, Bootstrap and Vite!</h1>
-        <Button className="btn btn-primary">Primary</Button>
+        <Button primary={true} label="Hallo"/>
       </div>
     </div>
   )
