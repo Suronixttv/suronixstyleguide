@@ -1,5 +1,7 @@
-function Button() {
-  return <button>Hello World</button>
+import React from 'react'
+
+function Button({ className }) {
+  return <button className={className}>Hello World</button>
 }
 
 export default Button
